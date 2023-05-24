@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding:0;
+}
+
+  .comtirm{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .mark{
+    margin-left: 100px;
+    width: 70px;
+    margin-bottom: 35px;
+  }
+
+  .para-thanks-one{
+    text-align: center;
+    font-size: 25px;
+    color: rgb(94, 3, 94);
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+
+  .para-thanks-two{
+    color: #D4D4D6;
+    font-size: 19px;
+    margin-bottom: 40px;
+  text-align: center;
+  }
+
+  .mark-button{
+    width: 280px;
+    height: 43px;
+    margin-bottom: 50px;
+    background-color: rgb(46, 2, 46);
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 1.3s;
+  }
+
+  .mark-button:focus{
+    background-color: rgb(207, 17, 207);
+    color: #000;
+  }
+
+  @media screen and (max-width:414px){
+    .mark-button{
+        width: 250px;
+    }
+  }
+
+  @media screen and (min-width:600px){
+    .mark-button{
+        width: 280px;
+    }
+  }
+
+  @media screen and (min-width:900px){
+     body{
+        position: relative;
+     }
+
+     .comtirm{
+  position: absolute;
+  right: 100px;
+  left: 480px;
+  bottom: -60px;
+      }
+  }
